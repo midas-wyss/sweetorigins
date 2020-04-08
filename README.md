@@ -1,1 +1,11 @@
-# sweetorigins
+# SweetOrigins
+Deep learning-based evolutionary classifier for glycan sequences
+
+# SweetOrigins: Extracting Evolutionary Information from Glycans
+This repository provides code for XXX
+
+# Abstract
+Glycans, the most diverse biopolymer and crucial for many biological processes, are shaped by evolutionary pressures stemming in particular from host-pathogen interactions. While this positions glycans as being essential for understanding and targeting host-pathogen interactions, their considerable diversity and a lack of methods has hitherto stymied progress in leveraging their predictive potential. Here, we utilize a curated dataset of 12,674 glycans from 1,726 species to develop and apply machine learning methods to extract evolutionary information from glycans. Our deep learning-based language model SweetOrigins provides evolution-informed glycan representations that we utilize to discover and investigate motifs used for molecular mimicry-mediated immune evasion by commensals and pathogens. Novel glycan alignment methods enable us to identify and contextualize virulence-determining motifs in the capsular polysaccharide of Staphylococcus aureus and Acinetobacter baumannii. Further, we show that glycan-based phylogenetic trees contain most of the information present in traditional 16S rRNA-based phylogenies and improve on the differentiation of genetically closely related but phenotypically divergent species, such as Bacillus cereus and Bacillus anthracis. Leveraging the evolutionary information inherent in glycans with machine learning methodology is poised to provide further – critically needed – insights into host-pathogen interactions, sequence-to-function relationships, and the major influence of glycans on phenotypic plasticity.
+
+# Description
+All data used for this project can be found in the Supplementary Tables associated with the linked manuscript. The annotated Jupyter notebook in this repository contains code used for model training & analysis and generating figures from the manuscript. Run the notebook in the provided order to avoid errors. Trained models can be found in the repository and, with helper functions, can be used to predict the taxonomic class of new glycan sequences. Further tools available at https://wyss.shinyapps.io/glycobase/.
